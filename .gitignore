@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+
+# Build artifacts
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.log
+*.tlog
+*.lastbuildstate
+
+# CMake / vcpkg noise
+vcpkg*.log
+CMakeFiles/
+CMakeCache.txt

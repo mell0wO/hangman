@@ -1,0 +1,47 @@
+﻿# Hangman (C++)
+
+A simple **console-based Hangman game written in C++**, built as a learning project using basic STL features, file I/O, and classes.
+
+---
+
+## Features
+
+- Random word selection from a word list
+- ASCII hangman display
+- Guess tracking and remaining chances
+- Save & load system
+- Restart or continue previous games
+- Clean separation of logic (display, helpers, save, game)
+
+---
+
+## How It Works
+
+- Words are loaded from `google-10000-english-usa.txt`
+- A word is randomly selected (5–12 characters)
+- The player guesses letters until:
+  - the word is fully revealed ✅
+  - or chances run out ❌
+- Game state can be saved and reloaded from `save.txt`
+
+---
+
+## Build & Run
+
+### Using g++ (recommended)
+```bash
+g++ hangman.cpp -o hangman
+./hangman
+```
+
+### Using Visual Studio
+1.Open hangman.sln
+2.Build the project (Ctrl + Shift + B)
+3.Run (Ctrl + F5)
+
+### Files
+hangman.cpp – main game source
+google-10000-english-usa.txt – word list
+save.txt – save file (created at runtime)
+.gitignore – ignores build artifacts
+
