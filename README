@@ -1,4 +1,4 @@
-﻿# Hangman (C++)
+# Hangman (C++)
 
 A simple **console-based Hangman game written in C++**, built as a learning project using basic STL features, file I/O, and classes.
 
@@ -38,6 +38,9 @@ g++ hangman.cpp -o hangman
 1.Open hangman.sln
 2.Build the project (Ctrl + Shift + B)
 3.Run (Ctrl + F5)
+
+---
+
 
 ### Files
 hangman.cpp – main game source
